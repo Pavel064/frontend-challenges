@@ -1,0 +1,9 @@
+.count-block {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 2em;
+  padding: 2em;
+  border-radius: 2em;
+  background-color: #373700;
+}

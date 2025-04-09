@@ -4,3 +4,44 @@
   color-scheme: light dark;
   background-color: #242424;
 }
+
+button {
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.3s all;
+  background-color: #5d5d00;
+  color: #dedeab;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.nav-block {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn-active {
+  background-color: #808000;
+  color: #ffffc5;
+  transform: scale(1.1);
+}
+
+.btn-reset {
+  background-color: #b22222;
+  color: #ffdab9;
+}
+
+.btn-square {
+  /* display: inline-flex;
+  align-items: center;
+  justify-content: center; */
+  padding: 0;
+  font-size: 2rem;
+  height: 56px;
+  aspect-ratio: 1/1;
+}
